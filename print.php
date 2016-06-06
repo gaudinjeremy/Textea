@@ -38,6 +38,7 @@
         		$('#editeur').html(Page) ;
                 $('.editView').removeClass('edit');
 
+                // Ajout de la balise '!important' sur les couleurs et les fond afin de les forcer lors de l'impression
                 block = $('#editeur')[0] ;
                 span = block.getElementsByTagName("span");
                 var i;
