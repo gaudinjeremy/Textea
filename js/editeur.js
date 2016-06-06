@@ -26,6 +26,7 @@ function ToFocus() {
 	$('#editeur').focus() ;
 };
 
+// Permet d'utiliser toute sortes de caractères spéciaux et éviter les conflits (ex : < >).
 function Encode(Chaine) {
 
 	Page = encodeURIComponent(Chaine);
@@ -56,6 +57,7 @@ function Restaure() {
 	}
 };
 
+// Ajoute une bordure sur une image au survol de la souris
 function AddBorder(id) {
 
 	$('#'+id).addClass('ImgBorder') ;
@@ -72,6 +74,7 @@ function selectImg(src) {
 	$('#previewImg').attr("src",src);
 };
 
+// Permet de changer les dimensions d'une image
 function DimensionsImg(id) {
 
 	$('#modal_dimension').modal("show") ;
@@ -87,6 +90,7 @@ function DimensionsImg(id) {
 	});
 };
 
+// Permet de changer le format de la page (A4, A5 etc...)
 function FormatPage(format, width, height) {
 
 	$('#editeur').css('width', width);
@@ -102,6 +106,7 @@ function FormatPage(format, width, height) {
 	ToFocus();
 };
 
+// Permet de changer l'orientation de la page (Portrait ou Paysage)
 function Orientation(choix) {
 
 	Format = sessionStorage.getItem('formatPage');
@@ -143,6 +148,7 @@ $('.closeview').click(function() {
 	ToFocus();
 });
 
+// Sauvegarde la page en cours à chaque fois qu'une touche est pressée
 object = $('#editeur')[0] ;
 object.onkeyup=function(){
 	console.log('Automatiquement') ;
