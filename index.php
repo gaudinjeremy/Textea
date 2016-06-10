@@ -45,12 +45,5 @@
         <script src="dist/jQuery/jQuery-2.1.4.min.js"></script>
         <script src="dist/bootstrap/js/bootstrap.min.js"></script>
         <script src="js/editeur.js"></script>
-
-        <script>
-            $(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            });
-
-        </script>
     </body>
 </html>

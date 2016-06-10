@@ -1,6 +1,8 @@
 
 $(function() {
 
+	$('[data-toggle="tooltip"]').tooltip()
+
 	// Restaure le format choisi si la page est rechargé
 	Format = sessionStorage.getItem('formatPage');
 	if (Format != null) {
