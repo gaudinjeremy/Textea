@@ -5,7 +5,7 @@ La majeure partie des fonctionnalités sont gérés par la commande <pre>Documen
 
 Il n'y à que pour les images et les tableaux ou des fonctions spécifiques ont été crées afin d'avoir plus de libertés avec ces deux éléments.
 
-Certaines fonctionnalitées dépendent du navigateurs utilisé. Vous pouvez voir les compabilités en allant sur <a href="http://codepen.io/netsi1964/full/QbLLGW/">ce site</a> avec votre navigateur.
+Certaines fonctionnalitées dépendent du navigateur utilisé. Vous pouvez voir les compabilités en allant sur <a href="http://codepen.io/netsi1964/full/QbLLGW/">ce site</a> avec votre navigateur.
 
 <h2>Fonctionnalités</h2>
 <ul>
