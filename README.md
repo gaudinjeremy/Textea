@@ -1,7 +1,9 @@
 # TEXTEA
 Éditeur WYSIWYG réalisé avec Bootstrap et jQuery
 
-La majeure partie des fonctionnalités sont gérés par la commande <pre>Document.execCommand()</pre>, il n'y à que pour les images et les tableaux ou des fonctions spécifiques ont été crées afin d'avoir plus de libertés avec ces deux éléments.
+La majeure partie des fonctionnalités sont gérés par la commande <pre>Document.execCommand()</pre>
+
+Il n'y à que pour les images et les tableaux ou des fonctions spécifiques ont été crées afin d'avoir plus de libertés avec ces deux éléments.
 
 Certaines fonctionnalitées dépendent du navigateurs utilisé. Vous pouvez voir les compabilités en allant sur <a href="http://codepen.io/netsi1964/full/QbLLGW/">ce site</a> avec votre navigateur.
 
